@@ -4,38 +4,39 @@ Advanced TF2 resupply script.
 ## Introduction
 
 This script remembers which loadout you have active on each class, even after you exit TF2.
-This lets you have a single [resupply key](https://youtu.be/KaWJgQxlp20) (aka b4nny bind), instead of 4 (one for each loadout). No compromises.
+This lets you have a single [resupply key](https://youtu.be/KaWJgQxlp20) (*aka b4nny bind*), instead of 4 (one for each loadout). No compromises.
 
 ## SETUP
 
-1. Put both `resupply.cfg` and `nologfile.cfg` into your config directory.
+1. Put both **resupply.cfg** and **nologfile.cfg** into your config directory.
+I recommend `/tf/custom/config/cfg`. If you need help see [this](https://www.reddit.com/r/tf2scripthelp/wiki/introduction#wiki_steam_method).
 
-I recommend `/tf/custom/config/cfg`. If you need help finding that see [this](https://www.reddit.com/r/tf2scripthelp/wiki/introduction#wiki_steam_method).
+2. Add `exec resupply` to your **autoexec.cfg**.
 
-2. Add `exec resupply` to your `autoexec.cfg`.
+3. Add `loadouts_class` to each **class.cfg**
+`loadouts_scout` in **scout.cfg**
+`loadouts_soldier` in **soldier.cfg**
+`loadouts_pyro` in **pyro.cfg**
+`loadouts_demoman` in **demoman.cfg**
+`loadouts_heavyweapons` in **heavyweapons.cfg**
+`loadouts_engineer` in **engineer.cfg**
+`loadouts_medic` in **medic.cfg**
+`loadouts_sniper` in **sniper.cfg**
+`loadouts_spy` in **spy.cfg**
 
-3. Add `loadouts_class` to each `class.cfg`
+4. Bind your keys
+`loadoutA`, `loadoutB`' `loadoutC`, `loadoutD` for switching loadouts
+`resup` to resupply
+Do this in your **autoexec.cfg** or wherever you have your binds.
+Example:
 ```
-loadouts_scout
-loadouts_soldier
-loadouts_pyro
-loadouts_demoman
-loadouts_heavyweapons
-loadouts_engineer
-loadouts_medic
-loadouts_sniper
-loadouts_spy
+bind F1 loadoutA
+bind F1 loadoutB
+bind F1 loadoutC
+bind F1 loadoutD
+bind ALT resup
 ```
-
-4. Bind keys to:
-```
-loadoutA
-loadoutB
-loadoutC
-loadoutD
-resup
-```
-These should be self explanatory ^
+For info on binds see [bind on TF2 wiki](https://wiki.teamfortress.com/wiki/Scripting#Bind) and [List of key names](https://wiki.teamfortress.com/wiki/Scripting#List_of_key_names)
 
 5. Profit
 
