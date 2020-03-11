@@ -4,12 +4,11 @@ Advanced TF2 resupply script.
 ## Introduction
 
 This script remembers which loadout you have active on each class, even after you exit TF2.  
-This lets you have a single [resupply key](https://youtu.be/KaWJgQxlp20) *(aka b4nny bind)*, instead of 4 (one for each loadout).  
-No compromises.
+This lets you have a single [resupply key](https://youtu.be/KaWJgQxlp20) *(aka b4nny bind)*, instead of 4 (one for each loadout).
 
 ## SETUP
 
-1. Put both **resupply.cfg** and **nologfile.cfg** into your config directory.  
+1. Put both **resupply.cfg** and **nologfile.cfg** into your cfg directory.  
 I recommend `/tf/custom/config/cfg`.  
 If you need help see [this](https://www.reddit.com/r/tf2scripthelp/wiki/introduction#wiki_steam_method).
 
