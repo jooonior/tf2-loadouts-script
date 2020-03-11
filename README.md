@@ -14,18 +14,18 @@ If you need help see [this](https://www.reddit.com/r/tf2scripthelp/wiki/introduc
 
 2. Add `exec resupply` to your **autoexec.cfg**.
 
-3. Add `loadouts_class` to each **class.cfg**  
-`loadouts_scout` in **scout.cfg**  
-`loadouts_soldier` in **soldier.cfg**  
-`loadouts_pyro` in **pyro.cfg**  
-`loadouts_demoman` in **demoman.cfg**  
-`loadouts_heavyweapons` in **heavyweapons.cfg**  
-`loadouts_engineer` in **engineer.cfg**  
-`loadouts_medic` in **medic.cfg**  
-`loadouts_sniper` in **sniper.cfg**  
-`loadouts_spy` in **spy.cfg**  
+3. Add `loadouts_class` to each **class.cfg**.  
+   `loadouts_scout` in **scout.cfg**  
+   `loadouts_soldier` in **soldier.cfg**  
+   `loadouts_pyro` in **pyro.cfg**  
+   `loadouts_demoman` in **demoman.cfg**  
+   `loadouts_heavyweapons` in **heavyweapons.cfg**  
+   `loadouts_engineer` in **engineer.cfg**  
+   `loadouts_medic` in **medic.cfg**  
+   `loadouts_sniper` in **sniper.cfg**  
+   `loadouts_spy` in **spy.cfg**  
 
-4. Bind your keys  
+4. Bind your keys.  
    `loadoutA`, `loadoutB` `loadoutC`, `loadoutD` for switching loadouts,
    `resup` to resupply.  
    Do this in your **autoexec.cfg** or wherever you have your binds.  
@@ -43,7 +43,7 @@ If you need help see [this](https://www.reddit.com/r/tf2scripthelp/wiki/introduc
 ## NOTES
 
 Your loadouts are saved in `loadout_class.txt` (one for each class) in the `/tf/cfg` folder.  
-These files will get bigger everytime you change loadout on said class.  
+These files will get bigger everytime you change loadout on said class.
 If they get too big, you might experience a short freeze when you change classes, caused by the file taking TF2 some time to process.  
-If they get bigger than 1 MiB (1048576 bytes, corresponds to *43 690 loadout changes*), the game will refuse to load them at all.  
+If they get bigger than 1 MiB (1048576 bytes, corresponds to *43 690 loadout changes*), the game will refuse to load them at all.
 To solve this, you should **delete them every once in a while** (let's say once a year).
