@@ -9,6 +9,7 @@ This lets you have a single [resupply key](https://youtu.be/KaWJgQxlp20) (aka b4
 ## SETUP
 
 1. Put both `resupply.cfg` and `nologfile.cfg` into your config directory.
+
 I recommend `/tf/custom/config/cfg`. If you need help finding that see [this](https://www.reddit.com/r/tf2scripthelp/wiki/introduction#wiki_steam_method).
 
 2. Add `exec resupply` to your `autoexec.cfg`.
