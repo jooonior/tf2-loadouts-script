@@ -47,3 +47,11 @@ These files will get bigger everytime you change loadout on said class.
 If they get too big, you might experience a short freeze when you change classes, caused by the file taking TF2 some time to process.  
 If they get bigger than 1 MiB (1048576 bytes, corresponds to *43 690 loadout changes*), the game will refuse to load them at all.
 To solve this, you should **delete them every once in a while** (let's say once a year).
+
+## TROUBLESHOOTING
+
+### There's a delay between when I press the key and respawning.
+That's normal. Happens with all resup scripts. You should press it (or spam it) right before you enter spawn.
+
+### I don't respawn. It doesn't do anything.
+Add `tf_respawn_on_loadoutchanges 1` to your autoexec.
