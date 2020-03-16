@@ -13,7 +13,7 @@ See [this video](https://youtu.be/KaWJgQxlp20) as an example.
 
 ## SETUP
 
-1. Download the [latest release]() and extract it into your config folder
+1. Download `tf2-loadouts-script.zip` from the [latest release](https://github.com/juniorsgithub/tf2-loadouts-script/releases/) and extract it into your `tf/custom` folder
 
 2. Add `exec loadouts/load` to your `autoexec.cfg`
 
@@ -24,10 +24,10 @@ See [this video](https://youtu.be/KaWJgQxlp20) as an example.
 
    `scout.cfg` : `exec loadouts/scout`  
    `soldier.cfg` : `exec loadouts/soldier`  
-   `pyro.cfg`: `exec loadouts/pyro`  
+   `pyro.cfg` : `exec loadouts/pyro`  
    `demoman.cfg` : `exec loadouts/demoman`  
    `heavyweapons.cfg` : `exec loadouts/heavyweapons`  
-   `engineer.cfg_ `: `exec loadouts/engineer`  
+   `engineer.cfg` : `exec loadouts/engineer`  
    `medic.cfg` : `exec loadouts/medic`  
    `sniper.cfg` : `exec loadouts/sniper`  
    `spy.cfg` : `exec loadouts/spy`  
@@ -63,7 +63,7 @@ Another option is to edit one of main menu's buttons (see step 7).
 
 6. Add loadout specific settings _(OPTIONAL)_
   
-   In your `class.cfg`, **before** `exec loadouts/class`, alias your commands to `loadoutX_cfg` (_X_ is the loadout letter).  
+   In your `class.cfg`, **before** `exec loadouts/class`, alias your commands to `loadoutX_cfg` (X is the loadout letter).  
 Be careful not to overwrite them right after (if you're not sure just put the `exec loadoutX_cfg` at the end).
 
    <details>
@@ -93,12 +93,12 @@ Be careful not to overwrite them right after (if you're not sure just put the `e
 
    Open TF2 and type `vgui_drawtree 1` into console. A small window will pop up. Check `Highlight Selected` and navigate to `MatSystemTopPanel > staticPanel > GameUI Panel > BaseGameUIPanel > MainMenuOverride`.  
 In there find a button you'd like to edit. Selected HUD elements will have a red outline.  
-You can refer to [this image]().
+You can refer to [this image](https://raw.githubusercontent.com/juniorsgithub/tf2-loadouts-script/master/screenshots/vgui_drawtree.png).
 
    Once you found your button, make sure you remember it's name and open your custom HUD's folder. From there go to `resource/ui` and look for `mainmenuoverride.res`.
 
    Open `mainmenuoverride.res` in Notepad. Press CTRL+F and search for the button you chose. After you have found it, look for a property called `"Command"`. Change it's value to `"engine exec loadouts/save; replay_confirmquit"`.  
-When you're done, it should look something like [this]().
+When you're done, it should look something like [this](https://raw.githubusercontent.com/juniorsgithub/tf2-loadouts-script/master/screenshots/mainmenuoverride.png).
 
    You need to restart TF2 to see the changes. You can test if it worked by having console open when you click the button. You should see `Loadouts have been saved.` as game closes.
 
@@ -107,15 +107,12 @@ When you're done, it should look something like [this]().
 ## FAQ
 
 ### There's a delay between when I press the key and respawning.
-That's normal. Happens with all resupply binds. You should press it (or spam it) right before you enter spawn room.
+That's normal. Happens with all resupply binds. You should press it (or spam it) right before you enter spawn.
 
 ### How does it work?
 When saving, console logging is enabled (`con_logfile cfg/saved_loadouts.txt`) and current loadouts are echoed to the console, which gets them written into that file.  
 When loading loadouts, the file is executed (`exec saved_loadouts.txt`) and it sets active loadouts.  
 
 ### What if the save file gets too big?
-TF2 won't exec files bigger than 1 MB, which corresponds 16 444 saves. Lifespan is further extended by not saving classes, where loadout hasn't been changed.  
+TF2 won't exec files bigger than 1 MB, which corresponds 16 444 saves. Lifespan is further extended by not saving classes where loadout hasn't been changed.  
 If you still ever manage to reach that limit, simply delete the file and the whole process will start over.  
-
-### Something else
-I made a [Steam group](), ask there.
