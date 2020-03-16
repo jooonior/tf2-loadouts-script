@@ -1,2 +1,0 @@
-// Stop logging console
-con_logfile ""
