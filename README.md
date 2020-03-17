@@ -116,3 +116,6 @@ When loading loadouts, the file is executed (`exec saved_loadouts.txt`) and it s
 ### What if the save file gets too big?
 TF2 won't exec files bigger than 1 MB, which corresponds 16 444 saves. Lifespan is further extended by not saving classes where loadout hasn't been changed.  
 If you still ever manage to reach that limit, simply delete the file and the whole process will start over.  
+
+### Something else
+I made a [Steam group](https://steamcommunity.com/groups/juniors-pot), ask there.
