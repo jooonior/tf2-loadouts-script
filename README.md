@@ -13,7 +13,7 @@ See [this video](https://youtu.be/KaWJgQxlp20) as an example.
 
 ## SETUP
 
-1. Download `tf2-loadouts-script.zip` from the [latest release](https://github.com/juniorsgithub/tf2-loadouts-script/releases/) and extract it into your `tf/custom` folder
+1. Download `tf2-loadouts-script.zip` from the [latest release](https://github.com/juniorsgithub/tf2-loadouts-script/releases/latest/download/tf2-loadouts-script.zip) and extract it into your `tf/custom` folder
 
 2. Add `exec loadouts/load` to your `autoexec.cfg`
 
@@ -102,7 +102,7 @@ When you're done, it should look something like [this](https://raw.githubusercon
 
    You need to restart TF2 to see the changes. You can test if it worked by having console open when you click the button. You should see `Loadouts have been saved.` as game closes.
 
-   For more info on HUD editing check out [this awesome guide](http://doodlesstuff.com/?p=tf2hud) by Doodles.
+   More info on HUD editing [here](http://doodlesstuff.com/?p=tf2hud) and [here](https://github.com/JarateKing/TF2-Hud-Reference).
 
 ## FAQ
 
