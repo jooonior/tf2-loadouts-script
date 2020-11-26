@@ -1,7 +1,7 @@
 # junior's loadouts and resupply script
 A TF2 script that manages loadout settings and resupply bind.  
 
-[github](https://github.com/juniorsgithub/tf2-loadouts-script)&nbsp; [steam](https://steamcommunity.com/groups/juniors-pot/discussions/0/3826311001003607453/)
+[github](https://github.com/juniorsgithub/tf2-loadouts-script)&nbsp; 
 
 ## Features
 
