@@ -15,7 +15,7 @@ Loadout specific settings and a resup bind that knows which loadout you're on.
 
 Resup bind
 _(aka [b4nny bind](https://m.twitch.tv/masonarium/clip/DeterminedBumblingWerewolfJKanStyle/))_
-lets you resupply while in spawn without needing to touch the cabinet.
+lets you resupply while in spawn without needing to touch the fridge/cabinet.
 Unlike switching classes, it preserves all of your buildings, stickies
 and ubers (but not stored crits, heads or banner charges).  
 
