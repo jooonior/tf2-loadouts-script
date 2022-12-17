@@ -81,30 +81,6 @@ loadouts.medic
 ```
 </details>
 
-## Maintenance
-
-Your loadouts are saved in `cfg/saved_loadouts.txt`.
-There is no way to automatically remove old data from the file,
-so it will grow larger as time goes on.
-
-If you change all nine loadouts every time, the limit is 19 418 saves.
-After that the file will reach 1 MB and TF2 won't load it.
-This script is optimized to skip saving loadouts that haven't changed,
-so for most users it should last a lot longer.
-
-Even at lower numbers it might take a few seconds to process the file,
-which would cause a short freeze on launch while it's loading.
-If you notice this, simply delete the save file to start over.
-Once a year should be more than enough.
-
-## Alias conflicts
-
-All aliases this script uses are prefixed with `loadouts.` to avoid
-conflicts. The only exception are ones that are written to the save
-file, which are kept as short as possible to preserve space.
-They are named `l<1-9><A-D>` (e.g. `l1A` is scout loadout A).
-Using these names in your other scripts would cause issues.
-
 ## FAQ
 
 ### There's a delay between when I press the key and respawning.
