@@ -30,7 +30,7 @@ and ubers (but not stored crits, heads or banner charges).
 3. Add `loadouts.<class>` **at the end** of each of your
    `<class>.cfg`  
 
-   `<class>` names are: `scout`, `soldier`, `pyro`, `demoman`,
+   Replace `<class>` with actual class names: `scout`, `soldier`, `pyro`, `demoman`,
    `heavyweapons`, `engineer`, `medic`, `sniper`, `spy`
 
 4. Bind your keys
