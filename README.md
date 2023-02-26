@@ -62,7 +62,9 @@ Simply alias your commands to `loadouts.cfg.X`
 (X being the loadout letter).
 
 If you want to set these per class in your `<class>.cfg`, you need to
-do so **before** the `loadouts.<class>` line, else it won't work.
+do so **before** the `loadouts.<class>` line.
+
+Don't forget to reset them for other classes, otherwise their values will carry over.
 
 <details>
 <summary>Example</summary>
