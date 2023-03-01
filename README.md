@@ -57,14 +57,14 @@ and ubers (but not stored crits, heads or banner charges).
 
 ## Loadout specific settings
 
-You can have additional commands executed for each loadout.
-Simply alias your commands to `loadouts.cfg.X`
-(X being the loadout letter).
+When changing to loadout _X_, the script calls corresponding `loadout.cfg.X` alias.
+You can set these aliases to execute arbitrary commands when changing lodouts.
 
 If you want to set these per class in your `<class>.cfg`, you need to
 do so **before** the `loadouts.<class>` line.
 
-Don't forget to reset them for other classes, otherwise their values will carry over.
+Don't forget to reset these aliases (and affected settings) for other classes,
+otherwise their values will carry over.
 
 <details>
 <summary>Example</summary>
